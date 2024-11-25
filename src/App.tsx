@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Deck} from 'spectacle';
+import DefaultTemplate from './templates/Default';
+import Introduction from './lectures/ajax/Introduction';
+import HTTP from './lectures/ajax/HTTP';
+import AJAX from './lectures/ajax/AJAX';
+import CORS from './lectures/ajax/CORS';
+import LocalStorages from './lectures/ajax/LocalStorages';
+import Polyfill from './lectures/ajax/Polyfill';
+import Modules from './lectures/ajax/Modules';
+import Homework from './lectures/ajax/Homework';
+import Thanks from './lectures/ajax/Thanks';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Deck template={DefaultTemplate}>
+            <Introduction />
+            <HTTP />
+            <AJAX />
+            <CORS />
+            <LocalStorages />
+            <Polyfill />
+            <Modules />
+            <Homework />
+            <Thanks />
+        </Deck>
+    );
 }
 
 export default App;

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="303" fill="none">
+    <rect width="277" height="224" x="512" y="50" fill="#D9D9D9" rx="3"/>
+    <rect width="275" height="224" x="35" y="52" fill="#D9D9D9" rx="3"/>
+    <rect width="260" height="20" x="42" y="62" fill="#B9DAF2" rx="5" style="mix-blend-mode:darken"/>
+    <rect width="260" height="20" x="519" y="62" fill="#B9DAF2" rx="5" style="mix-blend-mode:darken"/>
+    <rect width="260" height="101" x="42" y="82" fill="#DCB9F2" rx="5" style="mix-blend-mode:darken"/>
+    <rect width="260" height="101" x="519" y="82" fill="#DCB9F2" rx="5" style="mix-blend-mode:darken"/>
+    <rect width="260" height="58" x="42" y="204" fill="#CFF2B9" rx="5" style="mix-blend-mode:darken"/>
+    <rect width="260" height="58" x="519" y="204" fill="#CFF2B9" rx="5" style="mix-blend-mode:darken"/>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="48" y="76.7">POST / HTTP/1.1</tspan>
+        <tspan x="48" y="96.7">Host: developer.mozilla.org</tspan>
+        <tspan x="48" y="116.7">User-Agent: Chrome/131.0.0.0</tspan>
+        <tspan x="48" y="136.7">Accept: */*</tspan>
+        <tspan x="48" y="156.7">Content-Type: application/json</tspan>
+        <tspan x="48" y="176.7">Content-Length: 345</tspan>
+        <tspan x="48" y="216.7">{</tspan>
+        <tspan x="48" y="236.7">"data": "ABC123"</tspan>
+        <tspan x="48" y="256.7">}</tspan>
+    </text>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="523" y="76.7">HTTP/1.1 200 OK</tspan>
+        <tspan x="523" y="96.7">Server: Nginx</tspan>
+        <tspan x="523" y="116.7">Date: Fri, 21 Jun 2024 12:52:39 GMT</tspan>
+        <tspan x="523" y="136.7">Content-Length: 678</tspan>
+        <tspan x="523" y="156.7">Content-Type: text/html</tspan>
+        <tspan x="523" y="176.7">Cache-Control: no-store</tspan>
+        <tspan x="523" y="216.7">HTML</tspan>
+        <tspan x="523" y="236.7">...</tspan>
+        <tspan x="523" y="256.7">HTML</tspan>
+    </text>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="147" y="33.7">Запрос</tspan>
+    </text>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="631" y="33.7">Ответ</tspan>
+    </text>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="350.0" y="76.7">Стартовая строка</tspan>
+    </text>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="380.0" y="137.7">Заголовки</tspan>
+    </text>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="358.0" y="198.7">Пустая строка</tspan>
+    </text>
+    <text fill="#000" font-family="monospace" font-size="12" letter-spacing="0em" style="white-space:pre">
+        <tspan x="396.1" y="236.7">Тело</tspan>
+    </text>
+</svg>
